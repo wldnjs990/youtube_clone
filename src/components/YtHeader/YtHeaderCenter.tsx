@@ -15,7 +15,7 @@ export default function YtHeaderCenter() {
               className="w-full h-[24px] focus:outline-none"
             />
             <a href="#" className="w-[19px] h-[11px] p-[6px] box-content block">
-              <span className="w-full h-full block hover:bg-[url(../public/assets/keyBoardHover.gif)]">
+              <span className="w-full h-full block hover:bg-[black]">
                 <img
                   src="https://www.gstatic.com/inputtools/images/tia.png"
                   alt="키보드 자판 생성 아이콘"

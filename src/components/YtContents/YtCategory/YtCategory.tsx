@@ -2,7 +2,7 @@ import YtCategortBtn from "./YtCategortBtn";
 
 export default function YtCategory() {
   return (
-    <section className="flex items-center gap-[12px] text-nowrap w-full h-[56px] px-[24px] fixed bg-white">
+    <section className="z-[99] flex items-center gap-[12px] text-nowrap w-full h-[56px] px-[24px] fixed bg-white">
       <YtCategortBtn btntext="전체" />
       <YtCategortBtn btntext="음악" />
       <YtCategortBtn btntext="믹스" />

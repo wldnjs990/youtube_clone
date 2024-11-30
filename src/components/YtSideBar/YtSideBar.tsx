@@ -2,7 +2,7 @@ import YtSlideBarLink from "./YtSlideBarLink";
 
 export default function YtSideBar() {
   return (
-    <aside className="w-[72px] h-screen fixed top-[56px] pt-[4px] px-1 bg-white">
+    <aside className="z-[99] w-[72px] h-screen fixed top-[56px] pt-[4px] px-1 bg-white">
       <YtSlideBarLink
         imgLink="/public/YtHome.svg"
         imgAlt="유튜브 홈 아이콘"
