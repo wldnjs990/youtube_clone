@@ -3,7 +3,7 @@ import YtVideoLink from "./YtVideoLink";
 
 export default function YtVideos() {
   return (
-    <section className="flex flex-wrap w-full pt-[56px]">
+    <section className="flex flex-wrap w-full pt-[80px] px-[24px]">
       <YtVideoLink
         videoImg={heart}
         videoTitle={`노래 듣고 가세요`}

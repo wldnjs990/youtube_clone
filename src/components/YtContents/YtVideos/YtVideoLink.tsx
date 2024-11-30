@@ -17,13 +17,13 @@ export default function YtVideoLink({
 }) {
   return (
     <article className="w-[calc(100%/3)] max-lg:w-[50%] max-[540px]:w-full px-[8px] pb-[40px]">
-      <article className="rounded-lg">
+      <article>
         <a href="#" className="w-full">
           <figure className="relative w-full before:content-[''] before:w-full before:pt-[56.25%] before:block">
             <img
               src={videoImg}
               alt=""
-              className="absolute top-0 left-0 w-full h-full rounded-lg"
+              className="absolute top-0 left-0 w-full h-full rounded-xl"
             />
             <span className="absolute bottom-0 right-0 m-[8px] roboto text-[12px] text-white bg-[#000000b3] px-[4px] pt-[1px] rounded-md">
               {videoTime}
